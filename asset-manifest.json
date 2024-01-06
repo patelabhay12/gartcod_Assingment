@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gartcod_Assingment/static/css/main.26d22216.css",
+    "main.css": "/gartcod_Assingment/static/css/main.82897478.css",
     "main.js": "/gartcod_Assingment/static/js/main.16952c04.js",
     "static/media/icon5.webp": "/gartcod_Assingment/static/media/icon5.72872107f31dff1fd1d6.webp",
     "static/media/image1.webp": "/gartcod_Assingment/static/media/image1.c3b3cfd87e935447adac.webp",
@@ -10,11 +10,11 @@
     "static/media/icons1.svg": "/gartcod_Assingment/static/media/icons1.72c58468b159127e8557d233921b4a14.svg",
     "index.html": "/gartcod_Assingment/index.html",
     "static/media/bg.svg": "/gartcod_Assingment/static/media/bg.f94e8b98030edd7b6fb2.svg",
-    "main.26d22216.css.map": "/gartcod_Assingment/static/css/main.26d22216.css.map",
+    "main.82897478.css.map": "/gartcod_Assingment/static/css/main.82897478.css.map",
     "main.16952c04.js.map": "/gartcod_Assingment/static/js/main.16952c04.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d22216.css",
+    "static/css/main.82897478.css",
     "static/js/main.16952c04.js"
   ]
 }
