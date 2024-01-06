@@ -28,11 +28,11 @@ const Home = () => {
 
     function calculateRemainingTime() {
         const now = new Date();
-        const endOfMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0); // Setting day to 0 gets the last day of the current month
+        const endOfMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0); 
 
         const timeDifference = endOfMonth - now;
 
-        // Calculate remaining days, hours, minutes, and seconds
+        
         const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
@@ -95,23 +95,23 @@ const Home = () => {
 
 
     useEffect(() => {
-        // Trigger the arrow animation after a delay
+       
         const animationTimeout = setTimeout(() => {
             setIsArrowAnimated(true);
         }, 1000);
         setTimeout(() => {
             setIsArrowY(true);
         }, 4000);
-        // Clear the timeout to prevent memory leaks
+       
         return () => clearTimeout(animationTimeout);
     }, []);
     useEffect(() => {
-        // Trigger the arrow animation after a delay
+       
 
         const animationTimeout = setTimeout(() => {
             setIsArrowY(true);
         }, 4000);
-        // Clear the timeout to prevent memory leaks
+        
         return () => clearTimeout(animationTimeout);
     }, []);
     return (
