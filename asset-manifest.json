@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gartcod_Assingment/static/css/main.26d22216.css",
+    "main.js": "/gartcod_Assingment/static/js/main.16952c04.js",
+    "static/media/icon5.webp": "/gartcod_Assingment/static/media/icon5.72872107f31dff1fd1d6.webp",
+    "static/media/image1.webp": "/gartcod_Assingment/static/media/image1.c3b3cfd87e935447adac.webp",
+    "static/media/bgimage.svg": "/gartcod_Assingment/static/media/bgimage.60885420b98c5252024cf660d901368e.svg",
+    "static/media/icon2.svg": "/gartcod_Assingment/static/media/icon2.e35f9ab0f87b0188ab18384a5063c5c6.svg",
+    "static/media/icon3.svg": "/gartcod_Assingment/static/media/icon3.a9cac21664e33354e41ca95a5e08e46f.svg",
+    "static/media/icons1.svg": "/gartcod_Assingment/static/media/icons1.72c58468b159127e8557d233921b4a14.svg",
+    "index.html": "/gartcod_Assingment/index.html",
+    "static/media/bg.svg": "/gartcod_Assingment/static/media/bg.f94e8b98030edd7b6fb2.svg",
+    "main.26d22216.css.map": "/gartcod_Assingment/static/css/main.26d22216.css.map",
+    "main.16952c04.js.map": "/gartcod_Assingment/static/js/main.16952c04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26d22216.css",
+    "static/js/main.16952c04.js"
+  ]
+}
