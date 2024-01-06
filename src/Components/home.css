@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_header{
+    width: 60%;
+    padding-top: 3rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-style: normal;
+    max-width: 48rem;
+    margin-bottom: 2rem;
+}
+.content .main_img img{
+    height: 100px;
+}
+.content .heading .movingIMG img{
+    height: 70px;
+    color: #ffff;
+}
+
+.content .heading{
+    font-size: 6rem;
+}
+
+.movingIMG{
+    min-width: 100px;
+    margin-left: 1.5rem;
+}
+
+.middle_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.middle_content span{
+    font-size: 1.1rem;
+}
+.middle_content img{
+    height: 50px;
+    color: yellow;
+}
+
+.time_zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sub_time{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub_time span{
+    font-size: 2rem;
+}
+.sub_time strong{
+    font-size: 0.6rem;
+}
+.btn{
+    padding: 10px 24px;
+    border-radius: 7px;
+    background: pink;
+    /* margin-bottom: 30px; */
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.button-container {
+    position: relative;
+    transition: transform 0.5s ease; 
+  }
+  
+  .button-container.moved {
+    transform: translateY(140px); 
+  }
+  
+  
+  
+
+  /* moving cursor */
+
+  .arrow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    line-height: 1;
+    transition: transform 2s ease; /* Use a longer transition for a smoother effect */
+  }
+  
+  .cursor {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: cursorMove 2s ease; 
+    z-index: 9999;
+  }
+  
+  @keyframes cursorMove {
+    50% {
+      transform: translate(100vw, 100vh); /* Move to the center */
+    }
+    100% {
+      transform: translate(100vw, 100vh); /* Move to the bottom right */
+    }
+  }
+  
+  .arrow-container.animated .arrow {
+    transform: translate(50vw, 90vh); /* Move to the center */
+   
+  }
+  .arrow-container.animated .animatedY{
+    transform: translate(100vw, -5vh)
+  }
